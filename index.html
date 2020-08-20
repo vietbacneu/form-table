@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="div-table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="col1" scope="col">&nbsp;</th>
+                    <th class="col" scope="col" style="background-color:aqua">cột 1 </th>
+
+                    <th class="col" scope="col" style="background-color:greenyellow">cột 2</th>
+                    <th class="col" scope="col" style="background-color:yellow">cột 3</th>
+                    <th class="col" scope="col">cột 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="row" scope="row" style="background-color:aqua">hàng 1</th>
+                    <td> <i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="row" scope="row" style="background-color:greenyellow">hàng 2</th>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <th class="row" scope="row" style="background-color:yellow">hàng 3</th>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <th class="row" scope="row" style="background-color:purple">hàng 4</th>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="row" scope="row">hàng 5</th>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                    <td><i class="fa fa-check-circle-o" aria-hidden="true"></i></td>
+                    <td><i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div style="margin-bottom:50px; margin-top:50px; text-align: center;">
+        From nhập đơn giản</div>
+
+    <div class="check-div">
+        <form action="">
+
+            <label class="switch">
+                <input type="checkbox" id="check">
+                <span class="slider round"></span>
+                <span class="check1"> 😡 Check đi bạn! </span>    
+            </label>
+
+            <div class="email-div">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="email" class="label-email"> </label>
+
+            </div>
+
+
+        </form>
+        <br>
+        <div>Bonus</div>
+    </div>
+    <div>
+        <form action="" class="form">
+            <div>
+                <ul style="padding: 0 0 0 10px;">
+                    <li style="list-style:none; font-weight: 600;font-size: 30px;">Đăng ký</li>
+                    <li style="list-style:none ; margin-top: 5px;">Nhanh chóng và dễ dàng</li>
+                </ul>
+                <div style="background-color: rgb(117, 116, 116);width: 100%; height: 1px;"></div>
+            </div>
+            <div>
+                <fieldset>
+                    <ul style="padding: 0 0 0 0px; ">
+                        <li style="list-style:none;display: inline-block; padding-right: 10px"><input type="text"
+                                name="text" placeholder="Họ" class="input"> </li>
+                        <li style="list-style:none;display: inline-block;"><input type="text" name="text"
+                                placeholder="Tên" class="input"> </li>
+
+                        <li style="list-style:none; padding-right: 10px ; margin :15px 0 0 0;">
+                            <input type="text" placeholder="Sdt hoặc email" class="input1"> </li>
+                        <li style="list-style:none; padding-right: 10px; margin :15px 0 0 0; ">
+                            <input type="password" placeholder="Mật khẩu mới" class="input1">
+                        </li>
+                    </ul>
+                </fieldset>
+                <div style="padding-left: 10px ;"> Ngày sinh <div style="display: inline-block;"><img
+                            src="https://trongrang.com.vn/wp-content/uploads/2017/01/hoi.mau_.xanh_.png" alt=""
+                            width="13px"></div>
+                </div>
+                <div style=" margin:-20px 0 0 0;">
+                    <fieldset>
+                        <ul style="padding: 0 0 0 0px;">
+                            <li
+                                style="list-style:none; padding-right: 10px ; margin :15px 0 0 0; display: inline-block">
+                                <input type="number" value="30" placeholder="Ngày sinh" class="input2" min="1" max="31">
+                            </li>
+                            <li
+                                style="list-style:none; padding-right: 10px ; margin :15px 0 0 0; display: inline-block">
+                                <input type="number" value="12" placeholder="Tháng sinh" class="input2" min="1"
+                                    max="12">
+                            </li>
+                            <li
+                                style="list-style:none; padding-right: 10px ; margin :15px 0 0 0; display: inline-block">
+                                <input type="number" value="1900" placeholder="Năm Sinh" class="input2"> </li>
+
+                        </ul>
+                    </fieldset>
+                </div>
+                <div style="padding-left: 10px "> Giới tính  <div style="display: inline-block;"><img
+                    src="https://trongrang.com.vn/wp-content/uploads/2017/01/hoi.mau_.xanh_.png" alt=""
+                    width="13px"></div> </div>
+                <div style=" margin:-20px 0 0 0;">
+                    <fieldset>
+                        <ul style="padding: 0 0 0 0px;">
+                            <li style="list-style:none ; margin :15px 10px 0 0; display: inline-block; width: 95px; height: 40px; line-height: 40px; background-color: rgb(224, 240, 240);  border:1px solid black;
+                        border-radius: 5px;  ">
+                                <label for="nam" style="padding-left: 10px;">Nam</label>
+                                <input type="radio" id="nam" class="input3" name="radio">
+                            </li>
+                            <li style="list-style:none ; margin :15px 10px 0 0; display: inline-block; width: 95px; height: 40px; line-height: 40px; background-color: rgb(224, 240, 240);  border:1px solid black;
+                        border-radius: 5px;  ">
+                                <label for="nu" style="padding-left: 10px;">Nữ</label>
+                                <input type="radio" id="nu" class="input4" name="radio">
+                            </li>
+                            <li style="list-style:none ; margin :15px 0 0 0px; display: inline-block; width: 120px; height: 40px; line-height: 40px; background-color: rgb(224, 240, 240);  border:1px solid black;
+                        border-radius: 5px;  ">
+                                <label for="tc" style="padding-left: 10px;">Tùy chỉnh</label>
+                                <input type="radio" id="tc" class="input5" name="radio">
+                            </li>
+
+                        </ul>
+                    </fieldset>
+                </div>
+
+
+
+            </div>
+            <div style="padding-left: 10px ; margin:15px 0 0 0;">Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Aliquam doloremque vel porro voluptates
+            </div>
+            <div> <button type="submit" class="submit">Đăng Ký</button></div>
+
+        </form>
+    </div>
+</body>
+
+</html>
