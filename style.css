@@ -133,7 +133,7 @@
       height: 40px;
       width: 260px;
       left: 100px;
-      bottom: -10px;
+      bottom: -9px;
       background-color: rgb(255, 255, 255);
       transition: .4s;
       color: yellowgreen;
@@ -185,7 +185,7 @@
       .email-div{
         
           margin-top: 20px;
-
+        position: relative;
        }
       #email{
           border: none;
@@ -200,12 +200,12 @@
         }
         #email:valid +label::after{
             position: absolute;
-             left: 58.5%;
-             top:83.5%;
+             left: 75%;
+             top:0%;
             content: "😗 Nhập Vào Email";
             font-size: 30px;
             font-weight: 600;
-
+            width: 300px;
 
         }
         #email:not(:placeholder-shown):valid  {
@@ -213,9 +213,9 @@
       }
       #email:not(:placeholder-shown):valid + label::before{
             position: absolute;
-             left: 58.5%;
-             top:83.5%;
-
+            left: 75%;
+            top: -2%;   
+            width: 310px;
           content: " 😀  Nhập Đúng Rồi ! ";
           color: rgb(108, 255, 71);
           background-color: white;
@@ -233,12 +233,14 @@
      
       #email:invalid + label::after  {
           position: absolute;
-          left: 58.5%;
-          top:83.5%;
+          left: 65%;
+          top: -10%;   
+          width: 400px;
             content:"  🤬 Nhập Sai Cmmr! ";
             font-weight: 600;
             font-size: 30px;
             color: red ;
+            
      } 
      .form{
         width: 380px;
